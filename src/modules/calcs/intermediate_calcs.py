@@ -1,4 +1,5 @@
 from typing import List, Union
+__all__ = ['calculate_mean', 'weighted_mean', 'calculate_variance']
 
 def calculate_mean(values: List[Union[int, float]]) -> float:
     global data
